@@ -1,0 +1,4 @@
+Subarrays for positive integer arrays:
+:: check the condition clearly
+:: process till the condition is met or surpassed(>=condition)
+:: start shrinking
