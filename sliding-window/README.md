@@ -3,7 +3,7 @@
 - process till the condition is met or surpassed(>=condition)
 - start shrinking whenever condition is violated
 
-#### string to obtain substring 
+### String to obtain substring 
 - check the condition clearly
 - use dynamic sliding window whenever possible
 - use hashmap to keep track of character frequency
