@@ -2,3 +2,10 @@ Subarrays for positive integer arrays:
 :: check the condition clearly
 :: process till the condition is met or surpassed(>=condition)
 :: start shrinking
+For a string to obtain substring
+:: check the condition clearly
+:: use dynamic sliding window whenever possible
+:: use hashmap to keep track of character frequency
+:: add characters into the hashmap till the condition is violated
+:: shrink the window - decrease frequency of characters in the hashmap
+NB: Always return what is asked
