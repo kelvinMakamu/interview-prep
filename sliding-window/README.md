@@ -19,5 +19,6 @@
 ### After replacement
 - check and understand the condition clearly
 - use dynamic sliding window
-- shrink sliding window whenever the condition is violated {(window_end-window_start+1)-maxRepeats > k}
-```maximum_length = Math.max(maximum_length, window_end-window_start+1)```
+- shrink sliding window whenever the condition is violated 
+- ```(window_end-window_start+1)-maxRepeats > k ```
+- ```maximum_length = Math.max(maximum_length, window_end-window_start+1)```
