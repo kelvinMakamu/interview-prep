@@ -14,3 +14,9 @@
 - ``` let sum = arr[left] + arr[right]; ```
 - if sum > target, then right -= 1
 - else left += 1
+
+## squaring sorted array
+- get leftsquare
+- get rightsquare
+- compare leftsquare with rightsquare
+- insert into a different array from the last item
