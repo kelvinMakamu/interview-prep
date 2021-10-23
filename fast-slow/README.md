@@ -9,3 +9,7 @@
 - ```Palindrome linked list ```
 - ```Cycle in circular array ```
 - if the pointers meet at any point, thus the LinkedList has a cycle
+
+## start of a linkedlist cycle
+- get the length of the cycle
+- use length and head to find the cycle starting node
