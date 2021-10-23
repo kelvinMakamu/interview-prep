@@ -14,3 +14,10 @@
 - get the length of the cycle
 - use length and head to find the cycle starting node
 - NB: Pay keen attention to the problem framing
+
+## Palindromic LinkedList
+- Divide the list into two halves at the middle
+- ``` 1. Find middle node of the list ```
+- ``` 2. Reverse the second half ```
+- ``` 3. compare first half with second half values. Break early when a single node value does not match ```
+- ``` 4. reverse second_half_copy back to the original ```
