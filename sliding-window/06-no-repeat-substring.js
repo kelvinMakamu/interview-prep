@@ -13,4 +13,4 @@ const no_repeat = str => {
     return maximum_length;
 }
 
-console.log(no_repeat("kklmmll"));
+console.log(no_repeat("clementisacap"));

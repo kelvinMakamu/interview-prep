@@ -15,3 +15,4 @@
 - use dynamic sliding window
 - use hashmap to track the index of the character last processed
 - shrink sliding window whenever the condition is violated
+- NB: Anything with repeat or replacement track index
