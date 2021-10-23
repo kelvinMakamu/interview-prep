@@ -21,3 +21,18 @@
 - ``` 2. Reverse the second half ```
 - ``` 3. compare first half with second half values. Break early when a single node value does not match ```
 - ``` 4. reverse second_half_copy back to the original ```
+
+## Rearranging Linked List
+- Divide the list into two halves at the middle
+- ``` 1. Find middle node of the list ```
+- ``` 2. Reverse the second half ```
+- ``` 3. compare first half with second half values. Break early when a single node value does not match ```
+- ``` 4. reverse second_half_copy back to the original ```
+- ``` 5. link the two halves taking note of the problem condition```
+- ``` let temp  = head.next;```
+- ```head.next = second_half; ```
+- ```head = temp; ```
+- ``` 6. remember to nullify the nodes you are done with```
+- ``` if(head !== null){```
+   ```     head.next = null;```
+    ```}```
