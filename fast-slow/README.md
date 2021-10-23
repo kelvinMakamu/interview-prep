@@ -13,3 +13,4 @@
 ## start of a linkedlist cycle
 - get the length of the cycle
 - use length and head to find the cycle starting node
+- NB: Pay keen attention to the problem framing
