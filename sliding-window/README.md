@@ -15,4 +15,9 @@
 - use dynamic sliding window
 - use hashmap to track the index of the character last processed
 - shrink sliding window whenever the condition is violated
-- NB: Anything with repeat or replacement track index
+
+### After replacement
+- check and understand the condition clearly
+- use dynamic sliding window
+- shrink sliding window whenever the condition is violated {(window_end-window_start+1)-maxRepeats > k}
+```maximum_length = Math.max(maximum_length, window_end-window_start+1)```
