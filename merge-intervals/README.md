@@ -15,3 +15,11 @@
 ## Common challenges
 - Intervals intersection
 - Maximum CPU load
+
+# Merge Overlapping Intervals
+- sort intervals on start time ``` intervals.sort((a,b)=>a.start-b.start) ``` to enforce ```a.start<=b.start ```
+- if 'a' overlaps 'b', i.e. ``` b.start <= a.end ```
+``` c.start = a.start ```
+``` c.end   = Math.max(a.end, b.end) ```
+- repeat above step
+
