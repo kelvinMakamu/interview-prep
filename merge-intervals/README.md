@@ -23,3 +23,15 @@
 ``` c.end   = Math.max(a.end, b.end) ```
 - repeat above step
 
+# Insert Interval into an existing non-overlapping intervals
+- find correct index to place the interval - skip all interval ending before start of the new interval
+- if an existing interval overlaps the new interval, merge them into c
+- ``` c.start = Math.min(a.start,b.start);```
+- ``` c.end   = Math.max(a.end,b.end); ```
+
+# Inserting new interval steps
+- ``` 1. skip all intervals before start of the new interval ```
+- ``` 2. merge overlapping ```
+- ``` 3. add the new interval to an array ```
+- ``` 4. add remaining intervals ```
+
