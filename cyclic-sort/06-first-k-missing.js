@@ -4,7 +4,7 @@ const find_first_missing_posistive = (arr,k) => {
     if(arr.length < 1){
         return;
     }
-    let total_elements = arr.length === k ? arr.length + k : arr.length;
+    let total_elements = arr.length <= k ? arr.length + k : arr.length;
     let smallest_found_positives = {};
     let result = [];
     for(let i=0;i<total_elements;i++){
